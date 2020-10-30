@@ -1,0 +1,57 @@
+#maven
+.mvn
+mvnw
+mvnw.cmd
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+# compiled output
+demo-springboot-angular-fe/dist
+demo-springboot-angular-fe/tmp
+demo-springboot-angular-fe/out-tsc
+# Only exists if Bazel was run
+demo-springboot-angular-fe/bazel-out
+
+# dependencies
+demo-springboot-angular-fe/node_modules
+demo-springboot-angular-fe/node
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+demo-springboot-angular-fe/*.iml
+demo-springboot-angular-be/*.iml
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+demo-springboot-angular-fe/.sass-cache
+demo-springboot-angular-fe/connect.lock
+demo-springboot-angular-fe/coverage
+demo-springboot-angular-fe/libpeerconnection.log
+demo-springboot-angular-fe/npm-debug.log
+demo-springboot-angular-fe/yarn-error.log
+demo-springboot-angular-fe/testem.log
+demo-springboot-angular-fe/typings
+
+# System Files
+.DS_Store
+Thumbs.db
