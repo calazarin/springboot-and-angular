@@ -1,4 +1,4 @@
-# springboot-and-angular
+# SpringBoot and Angular project
 Sample project using maven frontend plugin in order to have all the code in an unique jar
 
 ## Requisites
