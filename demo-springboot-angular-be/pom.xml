@@ -62,7 +62,7 @@
               <outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
               <resources>
                 <resource>
-                  <directory>${project.parent.basedir}/demo-springboot-angular-fe/dist/frontend/</directory>
+                  <directory>${project.parent.basedir}/demo-springboot-angular-fe/dist/springboot-angular</directory>
                 </resource>
               </resources>
             </configuration>
